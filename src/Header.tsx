@@ -20,8 +20,6 @@ interface HeaderProps {
   headerStyle?: StyleProp<ViewStyle>;
 }
 
-Header.defaultProps = {};
-
 function Header(props: HeaderProps) {
   const {
     title,
